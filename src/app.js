@@ -80,7 +80,6 @@ app.post("/repositories/:id/like", (request, response) => {
   }
 
   const { likes } = repository;
-
   const sumLike = likes + 1;
 
   repository.likes = sumLike;
